@@ -1,0 +1,163 @@
+// h1 .comedy {
+//     font-family: Kanit;
+//     font-size: 36px;
+//     font-weight: 500;
+//     line-height: 53.82px;
+//     text-align: left;
+
+//     height: 54px;
+//     top: 170px;
+//     left: 89px;
+//     gap: 0px;
+//     opacity: 0px;
+//     color: #F5EFEF;
+// }
+
+// .left-h1{
+//     color: #DCD6D6;
+// }
+// .home.thewalkingdead.img-walking{
+//     width: 618px;
+//     height: 363px;
+//     top: 535px;
+//     left: 708px;
+//     gap: 0px;
+//     border-radius: 15px 0px 0px 0px;
+//     opacity: 0px;
+//     background-color: aliceblue;
+
+// }
+
+.home {
+    padding: 33px 45px 33px 45px;
+    .thewalkingdead {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .img-walking {
+            width: 618px;
+            height: 363px;
+            // top: 172px;
+            // left: 90px;
+
+            border-radius: 15px 0px 0px 0px;
+            opacity: 0px;
+            position: relative;
+
+            img {
+                width: 618px;
+                height: 363px;
+                top: 535px;
+                left: 708px;
+                // gap: 0px;
+                border-radius: 15px;
+                // opacity: 0px;
+            }
+            h1 {
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+                color: white;
+                font-family: Kanit;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 41.86px;
+                text-align: left;
+                width: 229px;
+                height: 42px;
+            }
+        }
+
+        .left-h1 {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            padding: 20px 0px 20px 0px;
+
+            h1 {
+                width: 327px;
+                height: 60px;
+                font-family: Kanit;
+                size: 40px;
+
+                line-height: 59.8px;
+
+                //     gap: 0px;
+                //     opacity: 0px;
+            }
+
+            p {
+                width: 404px;
+                height: 90px;
+                font-family: Kanit;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 29.9px;
+                text-align: left;
+            }
+            .button1 {
+                display: flex;
+                justify-content: space-between;
+                width: 571px;
+                height: 56px;
+                top: 448px;
+                left: 774px;
+                gap: 37px;
+                button {
+                    border: none;
+                    background-color: #14525e;
+                    border-color: #14525e;
+                    border: 5px solid #14525e;
+                    width: 137px;
+                    height: 56px;
+                    // padding: 31px 33px 31px 33px;
+                    // gap: 10px;
+                    border-radius: 15px;
+                    color: #ffffff;
+                    text-align: center;
+                    // padding: 10px 20px;
+                    // display: inline-block;
+                }
+                .three {
+                    width: 225px;
+                    height: px;
+                    padding: 31px 33px 31px 33px;
+                    gap: 10px;
+                    border-radius: 15px;
+                    color: #ffffff;
+                    text-align: center;
+                    padding: 10px 20px;
+                    display: inline-block;
+                }
+                .three:hover {
+                    background-color: #041316;
+                }
+            }
+        }
+    }
+    hr {
+        color: #14525e;
+    }
+    h1 {
+        font-family: Kanit;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 53.82px;
+        text-align: left;
+        color: #ffffff;
+    }
+    .row{
+        .col-md-6 s{
+
+            width: 832px;
+            height: 476px;
+            top: 730px;
+            left: 90px;
+            gap: 0px;
+            border-radius: 15px 0px 0px 0px;
+            opacity: 0px;       
+        }
+
+    }
+}
